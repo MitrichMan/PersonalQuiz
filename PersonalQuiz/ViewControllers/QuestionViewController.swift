@@ -28,7 +28,7 @@ class QuestionViewController: UIViewController {
             rangedSlider.value = answerCount / 2
         }
     }
-    
+     
     private let questions = Question.getQuestions()
     private var answersChosen: [Answer] = []
     private var currentAnswers: [Answer] {

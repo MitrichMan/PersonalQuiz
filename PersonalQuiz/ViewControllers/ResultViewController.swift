@@ -8,7 +8,7 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-    
+     
     @IBOutlet var resultImageLabel: UILabel!
     @IBOutlet var resultDescriptionLabel: UILabel!
     
@@ -28,6 +28,7 @@ class ResultViewController: UIViewController {
     }
 }
 
+// MARK: - method, which gets most picked animal and returns it.
 private extension ResultViewController {
     
     func getMostOftenAnimalType() -> Animal? {
